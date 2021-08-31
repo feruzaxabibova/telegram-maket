@@ -119,7 +119,6 @@
 }
 
 .dropdown-menu {
-    display: block;
     width: 450px;
     height: 400px;
     overflow: auto;
