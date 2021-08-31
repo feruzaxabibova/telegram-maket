@@ -110,6 +110,44 @@
     background-size: cover;
 }
 
+.dropdown .dropdown-menu {
+    display: block;
+    width: 400px;
+}
+
+.contact-icon {
+    margin: 0 27px;
+    color: #a9a9a9;
+    font-size: 20px;
+}
+
+.contact-search {
+    color: #a9a9a9;
+    font-size: 20px;
+    margin-left: 155px;
+}
+
+.contact-image {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.contact-name {
+    margin-left: 20px;
+}
+
+.contact-span {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #65AADD;
+    font-size: 25px;
+}
+
 .chat {
     transform: translateY(293px);
     display: flex;
