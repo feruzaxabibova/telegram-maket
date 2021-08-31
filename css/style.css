@@ -110,10 +110,29 @@
     background-size: cover;
 }
 
-.dropdown .dropdown-menu {
-    display: block;
-    width: 400px;
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
 }
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    display: block;
+    width: 450px;
+    height: 400px;
+    overflow: auto;
+}
+
+.dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+
+.form-check {
+    margin-left: auto;
+}
+
 
 .contact-icon {
     margin: 0 27px;
