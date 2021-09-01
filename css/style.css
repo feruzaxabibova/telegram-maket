@@ -119,8 +119,8 @@
 }
 
 .dropdown-menu {
-    width: 450px;
-    height: 400px;
+    width: 420px;
+    height: 540px;
     overflow: auto;
 }
 
@@ -218,7 +218,7 @@
     content: "";
     width: 0;
     height: 0;
-    transform: translateX(340px) translateY(8px);
+    transform: translateX(340px) translateY(7px);
     border-top: 10px solid transparent;
     border-left: 10px solid transparent;
     border-right: 14px solid transparent;
@@ -294,7 +294,7 @@
 }
 
 .third-section__emoji {
-    height: 644px;
+    height: 657px;
     overflow: auto;
 }
 
